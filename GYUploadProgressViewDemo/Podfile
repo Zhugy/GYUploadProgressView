@@ -1,0 +1,22 @@
+platform :ios, '8.0'
+
+pre_install do |installer|
+  Pod::PodTarget.send(:define_method, :static_framework?) { return true }
+end
+
+inhibit_all_warnings!
+
+use_frameworks!
+
+workspace 'GYUploadProgressViewDemo.xcworkspace'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "GYUploadProgressViewDemo" do
+  #pod 'Masonry'
+  pod 'GYUploadProgressView', :path => '../'
+end
+
+target "GYUploadProgressView" do
+ project '../GYUploadProgressView/GYUploadProgressView.project'
+end 

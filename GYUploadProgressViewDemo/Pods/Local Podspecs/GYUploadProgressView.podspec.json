@@ -1,0 +1,27 @@
+{
+  "name": "GYUploadProgressView",
+  "version": "0.0.1",
+  "summary": "GYUploadProgressView.",
+  "homepage": "http://www.baidu.com",
+  "license": "MIT",
+  "authors": {
+    "zhugy": "zhugy781@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/Zhugy/GYUploadProgressView.git",
+    "tag": "{s.version}"
+  },
+  "source_files": [
+    "GYUploadProgressView",
+    "GYUploadProgressView/**/*.{h,m,xib}"
+  ],
+  "exclude_files": "GYUploadProgressView/GYUploadProgressView/info.plist",
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore"
+  ]
+}

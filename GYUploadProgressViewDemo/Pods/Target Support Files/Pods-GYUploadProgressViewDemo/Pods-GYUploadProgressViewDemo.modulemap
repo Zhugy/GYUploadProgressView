@@ -1,0 +1,6 @@
+framework module Pods_GYUploadProgressViewDemo {
+  umbrella header "Pods-GYUploadProgressViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

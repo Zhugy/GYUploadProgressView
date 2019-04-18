@@ -1,0 +1,16 @@
+PODS:
+  - GYUploadProgressView (0.0.1)
+
+DEPENDENCIES:
+  - GYUploadProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  GYUploadProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYUploadProgressView: afda74e5cfa985ce3e6142f42a1db9e93622337a
+
+PODFILE CHECKSUM: c99465c47abacddf2a0e42146736f97f25f8d166
+
+COCOAPODS: 1.5.3
