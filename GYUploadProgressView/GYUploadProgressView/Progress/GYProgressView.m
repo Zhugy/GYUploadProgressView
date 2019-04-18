@@ -8,9 +8,6 @@
 
 #import "GYProgressView.h"
 
-#define kS [UIScreen mainScreen].bounds.size.width;
-
-
 CGFloat kScreen_width(void) {
     return [UIScreen mainScreen].bounds.size.width;
 }
