@@ -77,15 +77,19 @@ CGFloat kScreen_height(void) {
 
 - (void)setupLayer {
     [self.view layoutIfNeeded];
+    
+    // 黑色的背景框
     CAShapeLayer *bordLayer = [CAShapeLayer layer];
     UIBezierPath *bordPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, 148, 116) byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(6, 6)];
     bordLayer.path = bordPath.CGPath;
     self.alertView.layer.mask = bordLayer;
     
+    // 进度的底色
     UIBezierPath *bgRoundPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(20, 20) radius:20 startAngle:0 endAngle:M_PI * 2 clockwise:YES];
     self.bgProgressLayer.path = bgRoundPath.CGPath;
     [self.bgProgressView.layer addSublayer:self.bgProgressLayer];
     
+    // 进度的颜色
     UIBezierPath *roundPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(20, 20) radius:20 startAngle:-M_PI_2 endAngle:-M_PI_2 + M_PI *2 clockwise:YES];
     self.progressLayer.path = roundPath.CGPath;
     [self.progressView.layer addSublayer:self.progressLayer];
