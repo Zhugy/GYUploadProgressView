@@ -7,50 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06EA482F313940CBF2A07982FABA264E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
 		0EBB5AEA95DF2BE4CCA9B40CF863186B /* Pods-GYUploadProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EEE1EE31353CD848AA6D282A7E0E1C /* Pods-GYUploadProgressView-dummy.m */; };
-		1704A9880F65E7D56B43F43AB60584C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1704A9880F65E7D56B43F43AB60584C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
+		2EE4DA2AD3F50E93D61F68D68B2B6DC7 /* GYUploadProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 445C0B382AB664BCAC376712D8E71AE8 /* GYUploadProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FF8B2CDF4E08BACECE397AE855FA0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87747BBBB82C5F3462509EED3FFE508F /* QuartzCore.framework */; };
+		64BE032825EB70CA07091DFFEB390A8C /* GYProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28006BF494E54AE61090720E0895D9D9 /* GYProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD6B03177BCB1638A7D7040E468D462 /* Pods-GYUploadProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D38981D2229DE9489419925BC9DA217A /* Pods-GYUploadProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF0D1E54B5092E647A19EBF07B01E0B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B9AE1FC6A894F4EFAB7C6B57E266A1FA /* Pods-GYUploadProgressViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B420BB8742884A589F19420373AC15 /* Pods-GYUploadProgressViewDemo-dummy.m */; };
-		D48EC684B5818A526608249BE15354CD /* Pods-GYUploadProgressViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDD7762835FDBD98062C0DCBCA76054 /* Pods-GYUploadProgressViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8F2CF839E5B01C69EBE08F6342F19B /* GYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3938DE40EB72034256D6B9893ECF21AF /* GYProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B69C192B25BEB1859BD05641F02801ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */; };
+		BB10EA4920DB1763EB713535D62EA839 /* Pods-GYUploadProgressViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B420BB8742884A589F19420373AC15 /* Pods-GYUploadProgressViewDemo-dummy.m */; };
+		CB720F8093D0B0BD3A2029190EC4A810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAE230FAEB45D1ACAE5D4AEEFDCC9BF /* UIKit.framework */; };
+		CE7BD945F8B3BB5E62B8AC21F158B592 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */; };
+		D50ED0F47D34F0F8FA07C1D5FC7DD1B1 /* GYUploadProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DF8336D27BB4F77580C05B791E5898 /* GYUploadProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01C3A6635E6F95B5E3732D4405E687A /* Pods-GYUploadProgressViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDD7762835FDBD98062C0DCBCA76054 /* Pods-GYUploadProgressViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E5B8B375E6110BD60930258AE1826E /* GYUploadProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB73573BCD5E25B62E93394E77D4FF99 /* GYUploadProgressView-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2B7553BEA396BBDF56B6B46AD0393D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C78CED9487443C9F447FD82DC9BC999F;
+			remoteInfo = GYUploadProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		037060D37F0739202CFECEDE83696044 /* GYUploadProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GYUploadProgressView.framework; path = GYUploadProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DF8336D27BB4F77580C05B791E5898 /* GYUploadProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYUploadProgressView-umbrella.h"; sourceTree = "<group>"; };
 		193A8D15F5E868FB971D5609CA2D6D1B /* Pods-GYUploadProgressViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYUploadProgressViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F72A95E30C67F4CF36FA321CCB9849F /* Pods-GYUploadProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYUploadProgressView.release.xcconfig"; sourceTree = "<group>"; };
-		221B33258B2A2FA61AD59F171AD1FAEA /* GYUploadProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GYUploadProgressView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		33E2389BBA42CFF1B3C8422AE5A046FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		28006BF494E54AE61090720E0895D9D9 /* GYProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYProgressView.h; sourceTree = "<group>"; };
 		35BD45DDBAA5B904E598256B11ABCF54 /* Pods-GYUploadProgressViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYUploadProgressViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3938DE40EB72034256D6B9893ECF21AF /* GYProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYProgressView.m; sourceTree = "<group>"; };
 		3D4F16CB8CE44D4EF6A91381BDCA37F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445183E92CE89FA12FE8CD6A091A9835 /* Pods-GYUploadProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYUploadProgressView.modulemap"; sourceTree = "<group>"; };
+		445C0B382AB664BCAC376712D8E71AE8 /* GYUploadProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYUploadProgressView.h; path = GYUploadProgressView/GYUploadProgressView/GYUploadProgressView.h; sourceTree = "<group>"; };
+		4D30A255C56C2212F779BD7C9F1ACCF1 /* GYUploadProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYUploadProgressView.xcconfig; sourceTree = "<group>"; };
+		4FAE230FAEB45D1ACAE5D4AEEFDCC9BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		53F022EA0CA27C53A0A08936253AFC86 /* Pods-GYUploadProgressViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYUploadProgressViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		562027AC13CD3F3E013CE6F8F7CEF334 /* GYUploadProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GYUploadProgressView.modulemap; sourceTree = "<group>"; };
 		568A3C3188AEFC1BEDC56186B84EB3CA /* Pods-GYUploadProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYUploadProgressView.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		574373147B26EA0179DE7D901ACA3B2C /* Pods_GYUploadProgressViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYUploadProgressViewDemo.framework; path = "Pods-GYUploadProgressViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7F8A818035BA33335DE8FC0E46F3F1 /* Pods-GYUploadProgressViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GYUploadProgressViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		81835A03F96014E94882549D8B5D987F /* GYUploadProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYUploadProgressView.h; path = GYUploadProgressView/GYUploadProgressView/GYUploadProgressView.h; sourceTree = "<group>"; };
-		886E015A6E6B49C41EF4D72DF0CD6B94 /* Pods_GYUploadProgressViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYUploadProgressViewDemo.framework; path = "Pods-GYUploadProgressViewDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2DC1F3669B5CC083FB2F0FA418BC9F /* Pods_GYUploadProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYUploadProgressView.framework; path = "Pods-GYUploadProgressView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BB67229AC6CC5802109F6E85D85AC48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87747BBBB82C5F3462509EED3FFE508F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		AB6E894BA0E145C3B1AFCE2CF1668726 /* Pods-GYUploadProgressViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYUploadProgressViewDemo-resources.sh"; sourceTree = "<group>"; };
 		B2C18C194664300FAF5BFC240E52037B /* Pods-GYUploadProgressViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GYUploadProgressViewDemo.modulemap"; sourceTree = "<group>"; };
-		C0229B6D7D8198314C377295C7CC2554 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BB73573BCD5E25B62E93394E77D4FF99 /* GYUploadProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYUploadProgressView-dummy.m"; sourceTree = "<group>"; };
 		C045442D9BC366A6EA5F8F86BA2B591B /* Pods-GYUploadProgressViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYUploadProgressViewDemo-frameworks.sh"; sourceTree = "<group>"; };
 		C0F0052834A7CAF7785E8F78E53D5BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A516E99229434462AA455D1297C0F9 /* Pods-GYUploadProgressView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GYUploadProgressView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7B795577EF53444AB11FACA5B6C6960 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CB16DC4BD0F42968C86CA874AA265C48 /* GYUploadProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GYUploadProgressView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBDD7762835FDBD98062C0DCBCA76054 /* Pods-GYUploadProgressViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYUploadProgressViewDemo-umbrella.h"; sourceTree = "<group>"; };
 		D0B420BB8742884A589F19420373AC15 /* Pods-GYUploadProgressViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYUploadProgressViewDemo-dummy.m"; sourceTree = "<group>"; };
 		D38981D2229DE9489419925BC9DA217A /* Pods-GYUploadProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GYUploadProgressView-umbrella.h"; sourceTree = "<group>"; };
 		E7EEE1EE31353CD848AA6D282A7E0E1C /* Pods-GYUploadProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GYUploadProgressView-dummy.m"; sourceTree = "<group>"; };
 		F3B1941A7D8D4E52DC70DE87627D0AB0 /* Pods-GYUploadProgressView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GYUploadProgressView-acknowledgements.plist"; sourceTree = "<group>"; };
-		F89CF421651E2A173B7BB7C1D80C8923 /* Pods_GYUploadProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GYUploadProgressView.framework; path = "Pods-GYUploadProgressView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F642AA78B668C20BADC2E678333D15DF /* GYUploadProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYUploadProgressView-prefix.pch"; sourceTree = "<group>"; };
 		FF9E26B164B5AE5E2B066A5EC8D552AD /* Pods-GYUploadProgressView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GYUploadProgressView-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4F1BE08C6354D345C8F709F205D61E2 /* Frameworks */ = {
+		8A2F6F678E49E6A0C13B2A3D8B569587 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0D1E54B5092E647A19EBF07B01E0B3 /* Foundation.framework in Frameworks */,
+				CE7BD945F8B3BB5E62B8AC21F158B592 /* CoreFoundation.framework in Frameworks */,
+				B69C192B25BEB1859BD05641F02801ED /* Foundation.framework in Frameworks */,
+				45FF8B2CDF4E08BACECE397AE855FA0F /* QuartzCore.framework in Frameworks */,
+				CB720F8093D0B0BD3A2029190EC4A810 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37AD17C47C69CA2D89BF702CD1F732D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EA482F313940CBF2A07982FABA264E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,22 +106,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F02016E4A4EEEB101606DF3DBEB81A /* Pod */ = {
+		079490390E8A7F8B8453C98C9AF1E607 /* Progress */ = {
 			isa = PBXGroup;
 			children = (
-				221B33258B2A2FA61AD59F171AD1FAEA /* GYUploadProgressView.podspec */,
-				C0229B6D7D8198314C377295C7CC2554 /* LICENSE */,
-				33E2389BBA42CFF1B3C8422AE5A046FC /* README.md */,
+				28006BF494E54AE61090720E0895D9D9 /* GYProgressView.h */,
+				3938DE40EB72034256D6B9893ECF21AF /* GYProgressView.m */,
 			);
-			name = Pod;
+			name = Progress;
+			path = GYUploadProgressView/GYUploadProgressView/Progress;
 			sourceTree = "<group>";
 		};
-		20FF8741D178226B27CE219733361023 /* Development Pods */ = {
+		134B15355BB5F686B608BE3377FBAEC9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0DD1BCF52F58E6904DA517554F72C7A /* GYUploadProgressView */,
+				562027AC13CD3F3E013CE6F8F7CEF334 /* GYUploadProgressView.modulemap */,
+				4D30A255C56C2212F779BD7C9F1ACCF1 /* GYUploadProgressView.xcconfig */,
+				BB73573BCD5E25B62E93394E77D4FF99 /* GYUploadProgressView-dummy.m */,
+				F642AA78B668C20BADC2E678333D15DF /* GYUploadProgressView-prefix.pch */,
+				06DF8336D27BB4F77580C05B791E5898 /* GYUploadProgressView-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "GYUploadProgressViewDemo/Pods/Target Support Files/GYUploadProgressView";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C451863D73655052607E422C51BB6A /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2983A308B93846F520CC45B9DDEB5122 /* Pods-GYUploadProgressViewDemo */ = {
@@ -101,6 +155,38 @@
 			path = "Target Support Files/Pods-GYUploadProgressViewDemo";
 			sourceTree = "<group>";
 		};
+		2C39519897EF4C12E106783BE5A438DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037060D37F0739202CFECEDE83696044 /* GYUploadProgressView.framework */,
+				6C2DC1F3669B5CC083FB2F0FA418BC9F /* Pods_GYUploadProgressView.framework */,
+				574373147B26EA0179DE7D901ACA3B2C /* Pods_GYUploadProgressViewDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A294C32B55893B76E7F032D7B0B496 /* GYUploadProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				445C0B382AB664BCAC376712D8E71AE8 /* GYUploadProgressView.h */,
+				3255BE9F0F26994628397A88CA58DCC8 /* Pod */,
+				079490390E8A7F8B8453C98C9AF1E607 /* Progress */,
+				134B15355BB5F686B608BE3377FBAEC9 /* Support Files */,
+			);
+			name = GYUploadProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3255BE9F0F26994628397A88CA58DCC8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB16DC4BD0F42968C86CA874AA265C48 /* GYUploadProgressView.podspec */,
+				C7B795577EF53444AB11FACA5B6C6960 /* LICENSE */,
+				7BB67229AC6CC5802109F6E85D85AC48 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		4D12DD5432E0FD7C77F14C9DE1C09901 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,13 +196,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		5F831394AE35CFD62ADD6B0D07B7A312 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30A294C32B55893B76E7F032D7B0B496 /* GYUploadProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				20FF8741D178226B27CE219733361023 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C68EAA8E5C3232878C58F332C5320EAE /* Products */,
+				5F831394AE35CFD62ADD6B0D07B7A312 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				2C39519897EF4C12E106783BE5A438DC /* Products */,
 				4D12DD5432E0FD7C77F14C9DE1C09901 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -138,37 +232,13 @@
 			path = "Target Support Files/Pods-GYUploadProgressView";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E8C451863D73655052607E422C51BB6A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0DD1BCF52F58E6904DA517554F72C7A /* GYUploadProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				81835A03F96014E94882549D8B5D987F /* GYUploadProgressView.h */,
-				09F02016E4A4EEEB101606DF3DBEB81A /* Pod */,
-			);
-			name = GYUploadProgressView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C68EAA8E5C3232878C58F332C5320EAE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F89CF421651E2A173B7BB7C1D80C8923 /* Pods_GYUploadProgressView.framework */,
-				886E015A6E6B49C41EF4D72DF0CD6B94 /* Pods_GYUploadProgressViewDemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9AD4BA9DB59EC496B51187CE6FD923FC /* CoreFoundation.framework */,
+				6F50E3FF51B0ECB1B580E8CD27ADC1E5 /* Foundation.framework */,
+				87747BBBB82C5F3462509EED3FFE508F /* QuartzCore.framework */,
+				4FAE230FAEB45D1ACAE5D4AEEFDCC9BF /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -184,34 +254,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EB2B2EC9A1A1B4A865AE02C2F84EE56 /* Headers */ = {
+		226F81DF52EE6F5710972BB7B535B5B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D48EC684B5818A526608249BE15354CD /* Pods-GYUploadProgressViewDemo-umbrella.h in Headers */,
+				64BE032825EB70CA07091DFFEB390A8C /* GYProgressView.h in Headers */,
+				D50ED0F47D34F0F8FA07C1D5FC7DD1B1 /* GYUploadProgressView-umbrella.h in Headers */,
+				2EE4DA2AD3F50E93D61F68D68B2B6DC7 /* GYUploadProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D60B59ABB10E4D0F485D3D97541473C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01C3A6635E6F95B5E3732D4405E687A /* Pods-GYUploadProgressViewDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		199D4F3A81F55FBFCB112AB603139CC3 /* Pods-GYUploadProgressViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D04D44BFD72EB1DC81FCB817B07BE0D /* Build configuration list for PBXNativeTarget "Pods-GYUploadProgressViewDemo" */;
-			buildPhases = (
-				327A2361BA32D41FC261CA400C56E892 /* Sources */,
-				F4F1BE08C6354D345C8F709F205D61E2 /* Frameworks */,
-				5EB2B2EC9A1A1B4A865AE02C2F84EE56 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-GYUploadProgressViewDemo";
-			productName = "Pods-GYUploadProgressViewDemo";
-			productReference = 886E015A6E6B49C41EF4D72DF0CD6B94 /* Pods_GYUploadProgressViewDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1FB17D620DC188DED4241989FCF9203A /* Pods-GYUploadProgressView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13C49504725116D1D6C1AF4B4F80F7FA /* Build configuration list for PBXNativeTarget "Pods-GYUploadProgressView" */;
@@ -226,7 +289,42 @@
 			);
 			name = "Pods-GYUploadProgressView";
 			productName = "Pods-GYUploadProgressView";
-			productReference = F89CF421651E2A173B7BB7C1D80C8923 /* Pods_GYUploadProgressView.framework */;
+			productReference = 6C2DC1F3669B5CC083FB2F0FA418BC9F /* Pods_GYUploadProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3CC99D0407A012BFEFC53723232614D /* Pods-GYUploadProgressViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42148832A2F431A95B2A6D85DA58E9D /* Build configuration list for PBXNativeTarget "Pods-GYUploadProgressViewDemo" */;
+			buildPhases = (
+				3C3A78C52B6E90445258AC8E42BB79D1 /* Sources */,
+				E37AD17C47C69CA2D89BF702CD1F732D /* Frameworks */,
+				6D60B59ABB10E4D0F485D3D97541473C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1388E505FA3D3604C776E7CB6CF9316 /* PBXTargetDependency */,
+			);
+			name = "Pods-GYUploadProgressViewDemo";
+			productName = "Pods-GYUploadProgressViewDemo";
+			productReference = 574373147B26EA0179DE7D901ACA3B2C /* Pods_GYUploadProgressViewDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C78CED9487443C9F447FD82DC9BC999F /* GYUploadProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7549816C33194E3EF1C28234B46F91 /* Build configuration list for PBXNativeTarget "GYUploadProgressView" */;
+			buildPhases = (
+				9DD388FA03B7393D82848FA15ADBA9C1 /* Sources */,
+				8A2F6F678E49E6A0C13B2A3D8B569587 /* Frameworks */,
+				226F81DF52EE6F5710972BB7B535B5B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYUploadProgressView;
+			productName = GYUploadProgressView;
+			productReference = 037060D37F0739202CFECEDE83696044 /* GYUploadProgressView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -246,22 +344,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C68EAA8E5C3232878C58F332C5320EAE /* Products */;
+			productRefGroup = 2C39519897EF4C12E106783BE5A438DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				C78CED9487443C9F447FD82DC9BC999F /* GYUploadProgressView */,
 				1FB17D620DC188DED4241989FCF9203A /* Pods-GYUploadProgressView */,
-				199D4F3A81F55FBFCB112AB603139CC3 /* Pods-GYUploadProgressViewDemo */,
+				C3CC99D0407A012BFEFC53723232614D /* Pods-GYUploadProgressViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		327A2361BA32D41FC261CA400C56E892 /* Sources */ = {
+		3C3A78C52B6E90445258AC8E42BB79D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9AE1FC6A894F4EFAB7C6B57E266A1FA /* Pods-GYUploadProgressViewDemo-dummy.m in Sources */,
+				BB10EA4920DB1763EB713535D62EA839 /* Pods-GYUploadProgressViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD388FA03B7393D82848FA15ADBA9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8F2CF839E5B01C69EBE08F6342F19B /* GYProgressView.m in Sources */,
+				F7E5B8B375E6110BD60930258AE1826E /* GYUploadProgressView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +382,15 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1388E505FA3D3604C776E7CB6CF9316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GYUploadProgressView;
+			target = C78CED9487443C9F447FD82DC9BC999F /* GYUploadProgressView */;
+			targetProxy = 2B7553BEA396BBDF56B6B46AD0393D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
@@ -339,73 +456,6 @@
 			};
 			name = Debug;
 		};
-		37AFC5AD83971EACB36B5EF92E8EB11E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35BD45DDBAA5B904E598256B11ABCF54 /* Pods-GYUploadProgressViewDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Pods-GYUploadProgressViewDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6477CC4F5336417DB8A319532D32B78F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B7F8A818035BA33335DE8FC0E46F3F1 /* Pods-GYUploadProgressViewDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Pods-GYUploadProgressViewDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		69859405E039D8FFC61D4A017EBB5FD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 568A3C3188AEFC1BEDC56186B84EB3CA /* Pods-GYUploadProgressView.debug.xcconfig */;
@@ -438,6 +488,134 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9509C2A5D541511106947F54DA48FD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D30A255C56C2212F779BD7C9F1ACCF1 /* GYUploadProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GYUploadProgressView/GYUploadProgressView-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GYUploadProgressView/GYUploadProgressView.modulemap";
+				PRODUCT_MODULE_NAME = GYUploadProgressView;
+				PRODUCT_NAME = GYUploadProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6837816CEEAC5376D18E5840A339AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BD45DDBAA5B904E598256B11ABCF54 /* Pods-GYUploadProgressViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Pods-GYUploadProgressViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B29D59912A37752F834B2B701BD0FE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D30A255C56C2212F779BD7C9F1ACCF1 /* GYUploadProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GYUploadProgressView/GYUploadProgressView-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/GYUploadProgressView/GYUploadProgressView.modulemap";
+				PRODUCT_MODULE_NAME = GYUploadProgressView;
+				PRODUCT_NAME = GYUploadProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2C0CC34D4364CE827A0CFAFC6E295ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7F8A818035BA33335DE8FC0E46F3F1 /* Pods-GYUploadProgressViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GYUploadProgressViewDemo/Pods-GYUploadProgressViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -552,11 +730,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D04D44BFD72EB1DC81FCB817B07BE0D /* Build configuration list for PBXNativeTarget "Pods-GYUploadProgressViewDemo" */ = {
+		3C7549816C33194E3EF1C28234B46F91 /* Build configuration list for PBXNativeTarget "GYUploadProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37AFC5AD83971EACB36B5EF92E8EB11E /* Debug */,
-				6477CC4F5336417DB8A319532D32B78F /* Release */,
+				B29D59912A37752F834B2B701BD0FE4A /* Debug */,
+				9509C2A5D541511106947F54DA48FD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42148832A2F431A95B2A6D85DA58E9D /* Build configuration list for PBXNativeTarget "Pods-GYUploadProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6837816CEEAC5376D18E5840A339AD5 /* Debug */,
+				B2C0CC34D4364CE827A0CFAFC6E295ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

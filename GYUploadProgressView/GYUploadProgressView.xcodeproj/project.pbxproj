@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B304C7F22681FFD006B84BC /* GYUploadProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B304C7D22681FFD006B84BC /* GYUploadProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B304CAA22682B0A006B84BC /* GYProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B304CA822682B0A006B84BC /* GYProgressView.h */; };
+		2B304CAB22682B0A006B84BC /* GYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B304CA922682B0A006B84BC /* GYProgressView.m */; };
 		A73B713358058375F52E045B /* Pods_GYUploadProgressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3E045FFDE955B7B5946D50 /* Pods_GYUploadProgressView.framework */; };
 /* End PBXBuildFile section */
 
@@ -16,6 +18,8 @@
 		2B304C7A22681FFD006B84BC /* GYUploadProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GYUploadProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B304C7D22681FFD006B84BC /* GYUploadProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYUploadProgressView.h; sourceTree = "<group>"; };
 		2B304C7E22681FFD006B84BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B304CA822682B0A006B84BC /* GYProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GYProgressView.h; sourceTree = "<group>"; };
+		2B304CA922682B0A006B84BC /* GYProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYProgressView.m; sourceTree = "<group>"; };
 		CD369D81649D184E0A236A2D /* Pods-GYUploadProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYUploadProgressView.debug.xcconfig"; path = "../GYUploadProgressViewDemo/Pods/Target Support Files/Pods-GYUploadProgressView/Pods-GYUploadProgressView.debug.xcconfig"; sourceTree = "<group>"; };
 		DF3E045FFDE955B7B5946D50 /* Pods_GYUploadProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYUploadProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,10 +65,20 @@
 		2B304C7C22681FFD006B84BC /* GYUploadProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				2B304CA722682AD0006B84BC /* Progress */,
 				2B304C7D22681FFD006B84BC /* GYUploadProgressView.h */,
 				2B304C7E22681FFD006B84BC /* Info.plist */,
 			);
 			path = GYUploadProgressView;
+			sourceTree = "<group>";
+		};
+		2B304CA722682AD0006B84BC /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				2B304CA822682B0A006B84BC /* GYProgressView.h */,
+				2B304CA922682B0A006B84BC /* GYProgressView.m */,
+			);
+			path = Progress;
 			sourceTree = "<group>";
 		};
 		7676644DF6A199CA07A7CC47 /* Pods */ = {
@@ -83,6 +97,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B304CAA22682B0A006B84BC /* GYProgressView.h in Headers */,
 				2B304C7F22681FFD006B84BC /* GYUploadProgressView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B304CAB22682B0A006B84BC /* GYProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +329,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GYUploadProgressView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhugy781.GYUploadProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -334,7 +354,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GYUploadProgressView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhugy781.GYUploadProgressView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

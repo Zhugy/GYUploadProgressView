@@ -1,0 +1,6 @@
+framework module GYUploadProgressView {
+  umbrella header "GYUploadProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
